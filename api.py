@@ -16,13 +16,5 @@ def api_all():
 @app.errorhandler(404) #si no existe la ruta
 def page_not_found(e):
     return "<h1>404</h1><p>The resource could not be found.</p>", 404
-#login
-
-#album
-
-#fotos
-
-#user
 
 app.run() #Uno de los metodos de la aplicacion Flask
-app.run()
